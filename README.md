@@ -32,9 +32,14 @@ Kapitel aus E010 sind einzeln erarbeitet worden. Kapitel aus E701 in der Gruppe 
 
 **Beispiele und Arbeitsergebnisse:**
 * Distributions:
-* Embedded Systems:
-* Linux in the Cloud:
+Eine Distribution ist ein Paket welcher auf einer Software/Kernel läuft. Nehmen wir z.B Linux, viele Betriebsysteme laufen auf Linux wie z.B: Ubuntu, Debian, Red Hat usw., diese gennante Linux-Destributins sind spezialisierte Images.
 
+* Embedded Systems:
+Embeded Systems sind Geräte welche mit einem eingebetetn System laufen. Aber was genau bedeutet das? Nehmen wir and wir haben eine Kafeemaschine. Hinter der Kafeemaschine steckt ein System(z.B: Linux) welches alles leitet.
+
+* Linux in the Cloud:
+Auch Cloud-Computing gennant. Damit meint man vor allem Server in die Coud zu verschieben. Man zahlt/benutzt nur das was man braucht.
+Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft Azure". Dadurch ist man viel flexibler & spart Platz da alles in der Cloud liegt & man sich über das Internet darauf verbinden kann.
 
 **Fazit und Aussicht:**
 
