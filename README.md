@@ -24,14 +24,16 @@ Kapitel aus E010 sind einzeln erarbeitet worden. Kapitel aus E701 in der Gruppe 
 
 **Weight:** 2
 
-**Beschreibung:** -
+**Beschreibung:** Knowledge of Linux development and major distributions
 
 **Tagesziele:**
 
 **Vorgehen:**
 
 **Beispiele und Arbeitsergebnisse:**
-
+* Distributions:
+* Embedded Systems:
+* Linux in the Cloud:
 
 
 **Fazit und Aussicht:**
