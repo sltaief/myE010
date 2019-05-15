@@ -1,37 +1,5 @@
 # ![](https://www.lpice.eu/fileadmin/_processed_/csm_LinuxEssentials-01_0ab118aa19.jpg) myE010 - Linux Essentials Exam 010
 
-**Vagrant Installation**
-
-Zuerst muss folgende SW Installiert werden:
-* [Git/Bash](https://git-scm.com/downloads)
-* [Vagrant](https://www.vagrantup.com/) 
-* [VirtualBox](https://www.virtualbox.org/)
-
-Wechseln Sie auf die Kommandozeile (*bash* oder *PowerShell*), Erstellen Sie ein neues Verzeichnis und Erzeugen eine VM
-
-	mkdir myVM
-	cd myVM
-	vagrant init centos/7
-	vagrant up
-	
-Das ist es! Jetzt haben Sie eine VM. 
-
-Um darin zu Arbeiten geben Sie `vagrant ssh` ein und wechseln ins Verzeichnis `vagrant`. Dieses Verzeichnis mountet die VM automatisch und zeigt auf `myVM` auf Ihrem Notebook.
-
-	vagrant ssh
-	cd /vagrant
-	ls -l 
-	
-`ls -l` gibt alle Dateien aus. Als einzige Datei sollte die Konfigurationsdatei von vagrant `Vagrantfile` angezeigt werden.
-
-Weitere Informationen siehe [Modul M300 - 20 Infrastruktur-Automatisierung](https://github.com/mc-b/M300/tree/master/20-Infrastruktur).
-
-**Weitere nützliche Programme**
-
-* [Windows SSH Client, putty](https://putty.org)
-* [Grafischer Windows SFTP Client, Bitvise SSH Client](https://www.bitvise.com/ssh-client-download)
-* [Visual Studio Code](https://code.visualstudio.com/)
-
 ## Fahrplan
 ***
 
