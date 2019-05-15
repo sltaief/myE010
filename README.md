@@ -20,24 +20,22 @@ Kapitel aus E010 sind einzeln erarbeitet worden. Kapitel aus E701 in der Gruppe 
 
 ## Dokumention des Lern- und Entwicklungsprozesses
 ***
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 1.1 Linux Evolution and Popular Operating Systemss (Status: In Arbeit)
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight:** 2
 
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+**Beschreibung:** -
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+**Tagesziele:**
 
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+**Vorgehen:**
 
-**Beispiele und Arbeitsergebnisse**
+**Beispiele und Arbeitsergebnisse:**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel 
-... vertiefen.
+
+**Fazit und Aussicht:**
+
 
 ***
 
