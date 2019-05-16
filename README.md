@@ -73,8 +73,18 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 * Package management tools and repositories:
     * dpkg:
     * apt-get(apt):
-    * rpm:
-    * yum:
+    * rpm: rpm ist das Format der Software Packages. Sie sind vergleichbar mit den bei Windows bekannten MSI-Dateien.
+|  Befehl                       | Beschreibung                                                                      |
+| ------------------------------| ----------------------------------------------------------------------------------|
+| `rpm -ivh {rpm-file}`         |  	Install the package                                                             |
+| `rpm -Uvh {rpm-file}`         |  	Upgrade package                                                                 |
+| `rpm -ev {package}`           |  	Erase/remove/ an installed package                                              |
+| `rpm -qa`                     | Display list all installed packages                                               |             
+| `rpm -qi {package}`           | Display installed information along with package version and short description    |
+| `rpm -qc {pacakge-name}`      |  	Display list of configuration file(s) for a package                             |
+| `rpm -qcf {/path/to/file}`    | Display list of configuration files for a command                                 |                   
+    
+    * yum: Yum wird zum Installieren und Deinstallieren oder ganz allgemein zum Verwalten der Software verwendet. Yum aktualisiert automatisch die Pakete & Liste der Paketet.Yum macht Abhängigkeitsprüfungen und sorgt so damit, dass es keine Inkonsistenzen unter den Installierten Packages gibt
 
 **Fazit und Aussicht:**
 
