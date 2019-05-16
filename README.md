@@ -59,22 +59,22 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
     
 **Beispiele und Arbeitsergebnisse**
 
-*Desktop application
-    *Thunderbird:
-    *LibreOffice
-*Server application
-    *Nextcloud:
-    *Samba:
-    *NFS:
-*Development languages
-    *Phyton:
-    *Perl:
-    *PHP:
-*Package management tools and repositories:
-    *dpkg:
-    *apt-get(apt):
-    *rpm:
-    *yum:
+* Desktop application
+    * Thunderbird:
+    * LibreOffice
+* Server application
+    * Nextcloud:
+    * Samba:
+    * NFS:
+* Development languages
+    * Phyton:
+    * Perl:
+    * PHP:
+* Package management tools and repositories:
+    * dpkg:
+    * apt-get(apt):
+    * rpm:
+    * yum:
 
 **Fazit und Aussicht:**
 
