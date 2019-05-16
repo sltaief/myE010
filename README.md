@@ -46,23 +46,37 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 ***
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 1.2 Major Open Source Applications
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight:** 2
 
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+**Beschreibung:** Awareness of major applications as well as their uses and development
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+**Tagesziele*:*
 
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+**Vorgehen:** 
 
+    
 **Beispiele und Arbeitsergebnisse**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+*Desktop application
+    *Thunderbird:
+    *LibreOffice
+*Server application
+    *Nextcloud:
+    *Samba:
+    *NFS:
+*Development languages
+    *Phyton:
+    *Perl:
+    *PHP:
+*Package management tools and repositories:
+    *dpkg:
+    *apt-get(apt):
+    *rpm:
+    *yum:
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+**Fazit und Aussicht:**
 
 ***
 ### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
