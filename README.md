@@ -60,16 +60,12 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 **Beispiele und Arbeitsergebnisse**
 
 * Desktop application
-    * Thunderbird:
-    * LibreOffice
+    * Thunderbird: Thunderbird ist ein E-Mail-Programm wie Outlook von Firefox. Auf Ubuntu-Desktop ist es standardmässig schon vorinstalliert.
+    * LibreOffice: Libreoffice ist mit Microsoft Office zu vergleichen. Man kann es auf Ubunut herunterladen
 * Server application
-    * Nextcloud:
-    * Samba:
-    * NFS:
-* Development languages
-    * Phyton:
-    * Perl:
-    * PHP:
+    * Nextcloud: Nextcloud ist eine Software welche für das Speichern von Daten auf einem eigenen Server. Ist mit Dropbox vergleichbar jedoch hat man die vollständige Kontrolle über die Daten.
+    * Samba: Samba ermöglicht  Windows-Funktionen wie die Datei- und Druckdienste unter anderen Betriebssystemen zu nutzen und die Rolle eines Domain Controllers anzunehmen.
+    * NFS: Das Network File System ist eine Client/Server-Anwendung, die es einem Benutzer ermöglicht, eine Datei auf einem Remote-Computer so anzuzeigen, zu speichern und zu aktualisieren, als ob sie sich auf seinem eigenen Rechner befinden würde. 
 * Package management tools and repositories:
     * dpkg: dpkg ist das Format der Software Packages für Linux-Distributionen wie Ubuntu, Debian usw., apt ist das Paketverwaltungssystem für dpkg. Sie sind vergleichbar mit den bei Windows bekannten MSI-Dateien.
     * apt-get(apt): apt ist ein Paketverwaltungssystem welches für Linux-Distribustionen verwendet wird wie Ubuntu, Debian usw.
@@ -79,6 +75,27 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 **Fazit und Aussicht:**
 
 ***
+
+### Kapitel: 1.3 Open Source Software and Licensing
+
+**Weight:** 1
+
+**Beschreibung:** Open communities and licensing Open Source Software for business
+
+**Tagesziele:**
+
+**Vorgehen:** z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse:**
+
+* Open source philosophy:
+* Open source licensing:
+* Free Software Foundation (FSF), Open Source Initiative (OSI):
+
+**Fazit und Aussicht:** 
+
+***
+
 ### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
 
 **Weight**: 3 (Wert aus Exam 010)
