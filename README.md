@@ -96,6 +96,30 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 ***
 
+### Kapitel: 1.4 ICT Skills and Working in Linux
+
+**Weight**: 2 (Wert aus Exam 010)
+
+**Beschreibung:** Basic Information and Communication Technology (ICT) skills and working in Linux
+
+**Tagesziele:** 
+
+**Vorgehen:** z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* Desktop skills: 
+    * Privacy concerns: Vor dem Benutzen eines Linux-Rechners müssen Sie sich mit Benutzername und Kennwrt anmelden und hinterher wieder abmelden. Im Desktop-Modus sieht es ähnlich wie bei Windows aus. Im Terminal wird nach dem Benutzername gefragt und dann das Passwort(wenn man das Passwort eintippt bleibt sieht es aus als ob man nichts eingegeben hat)
+    * Configuration options: Linux bietet verschiedene Grafikumgebungen an, die zum grössten teil ähnlich und ziemlich intutiv funktionieren. (KDE & GNOME/LXDE & XFCE/Windowsmanger -> wenn man keine komplette Arbeitsumgebung möchte)
+    * Using a browser: Firefox & Chrome sthet uns für Linux zur Verfügung genau wie für Windows mit dem unterschied, dass sie anderst heissen(Open-Source-Version).Firefox -> Iceweasel / Chrome -> Chromium. Wie man den Browser öffnet und bedient sollte im klaren sein.
+* Getting to the command line:
+    * Terminals und Shells: In einem Terminalfenster können Sie in einer Grafikumgebung textuelle Shell-Komandos eingeben. Um Textdateien anzulegen kann man mit den folgenden Editoren die Dateien anlegen oder ändern <vi oder GNU Nano>. GNU Nano ist ein Klon eines Editor namens pico.
+* Industry uses of Linux, cloud computing and virtualization:
+
+**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+
+***
+
 ### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
 
 **Weight**: 3 (Wert aus Exam 010)
@@ -113,6 +137,27 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 * Doppelte " lösen Variablen auf.
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+
+***
+
+### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+
+**Weight**: 3 (Wert aus Exam 010)
+
+**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* Starten der Shell: bash bzw. Einloggen.
+* Einfache 'mein Befehl' lösen Variablen nicht auf.
+* Doppelte " lösen Variablen auf.
+
+**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+
 
 ## Links
 
