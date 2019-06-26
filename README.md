@@ -140,29 +140,48 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 ***
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 3.1 Archiving Files on the Command Line
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight:** 2
 
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+**Beschreibung:** Archiving files in the user home directory.
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+**Tagesziele:**
 
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+**Vorgehen:** z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
-**Beispiele und Arbeitsergebnisse**
+**Beispiele und Arbeitsergebnisse:**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+* tar:
+    * tar ist ein Befehl unter Linux welcher Dateien/Verzeichnisbäume archivieren. Der Vorteil von tar sind: Die Anwendung ist einfach, zuverlässig dazu ist es universell einsetzbar auf allen Unix- und Linux-Systemen. 
+    * Wichtige Optionen sind:
+        * -c erzeugt ein neues Archiv
+        * -f <Datei> erzuegt oder liest das Archiv von der Datei, wobei dies eine Datei oder ein Gerät sein kann
+        * -m  bearbeitet ein tar-Archiv, das sich über mehrere Datenträger erstreckt
+* tar options
+    * -c erzeugt ein neues Archiv
+    * -f <Datei> erzuegt oder liest das Archiv von der Datei, wobei dies eine Datei oder ein Gerät sein kann
+    * -m  bearbeitet ein tar-Archiv, das sich über mehrere Datenträger erstreckt
+    * -r hängt Dateien an das Archiv an 
+    * -t zeigt den Inhalt des Archivs
+    * -u ersetzt Dateien, die neuer als eine bereits archivierte Version sind
+* gzip, bzip2, xz:
+    * gzip: Gzip ist ein Programm welche man mit tar benutzen kann. Gzip ist ein Kompressionprogramm welche Dateien komprimiert und dekomprimiert.
+    * bzip2: bzip2 ist auch eine Kopmressionprogramm welche eine höhere Kompressionrate erzeugt als gzip jedoch braucht es mehr Zeit und Speicherplatz als gzip
+    * xz: xz ist ein weiteres Kompremierungsprogramm, welcher bersser komprimiert als gzip & bzip2 jedoch benötigt er dafür am längsten.
+* zip, unzip:
+    * Unter Linux gibt es auch die Programme zip & unzip welche im Windows Umfeld verbreitet ist
+    * zip: Das Programm zip kann Archiviereun und Komprimieren (PKZIP)
+    * unzip: unzip ist ein Entkomprimierungsprogramm für zip-Archive
+    
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 3.2 Searching and Extracting Data from Files
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight**: 3 
 
 **Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
 
@@ -171,10 +190,29 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 **Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
+* Command line pipes:
+    * Über Pipelines lassen sich die Standard-Aus- und -Eingabe von Programmen direkt miteinander verbinden
+* I/O redirection
+    * Die I/O Redirection ist eine Funktion, dass bei der Ausführung eines Befehls die Standard-Ein-/Ausgabegeräte ändern kann. Der grundlegende Workflow eines Linux-Befehls besteht darin, dass er eine Eingabe und eine Ausgabe benötigt.
+    * Der Standard Input device ist die Tastatur -> stdin
+    * Der Standard Output device ist der Bildschirm -> stdout
+* grep:
+    * dadurch lassen sich Dateien nach bestimmten Textstücken durchsuchen
+* less:
+    * ist ein Pager zum Anzeigen von Dateien auf der Kommandozeile
+* cat:
+    * hängt Dateien aneinander
+* head:
+    * Zeigt den Anfang eine Datei an 
+* tail:
+    * zeigt das Ende einer Datei an 
+* sort:
+    * sortiert  die zeilen seiner Eingabe
+* cut:
+    * extrahiert Felder oder Spalten aus seiner Eingabe
+* wc:
+    * dient zum Zählen von Wörtern, Zeichen und Bytes in Textdateien
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
