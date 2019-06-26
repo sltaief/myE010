@@ -219,9 +219,9 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 ***
 
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 3.3 Turning Commands into a Script
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight**: 4
 
 **Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
 
@@ -231,13 +231,22 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
+* Basic shell scripting
+    * Linux unterstützt beliebige Scriptsprachen. Der 1.Eintrag in einer Datei bestimmt die Scriptsprache #!/bin/bash – Bash Script, #!/usr/bin/node – Node JavaScript
+* 
+* #! (shebang)
+* /bin/bash
+* Variables
+* Arguments
+* for loops
+* echo
+* Exit status
+
 
 
 ### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
