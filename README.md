@@ -231,11 +231,6 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse**
 
-
-
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
-***
 * Basic shell scripting
     * Linux unterstützt beliebige Scriptsprachen. Der 1.Eintrag in einer Datei bestimmt die Scriptsprache #!/bin/bash – Bash Script, #!/usr/bin/node – Node JavaScript
 * 
@@ -248,6 +243,13 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 * Exit status
 
 
+
+**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+
+
+
+
+***
 
 ### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
 
