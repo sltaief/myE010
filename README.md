@@ -343,9 +343,39 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+Key Knowledge Areas:
+* Programs and configuration
+* Processes
+* Memory addresses
+* System messaging
+* Logging
+
+The following is a partial list of the used files, terms and utilities:
+* ps
+	* zeigt alle laufende Prozesses an
+		* wichtigste Optionen
+			* -a: von anderen benutzer
+			* -e: Umgebungsvariabeln jedes Prozesses
+			* -f: anzeige einer Baumstruktur
+			* -u: anzeige des Eigentümers
+* top
+	* top zeigt eine dynamische Übersicht der auf dem System laufenden Prozesses und die Systemressourcen
+		* wichtigste Optionen
+			* -c: Zeigt das vollständige Kommando inklusive Pfadangaben an 
+			* -i: Prozesses, welche den Status "idle" besitzen, werden nicht angezeigt
+			* -s: zeigt die absolute Zeit an, seit der Prozess gestartet wurde
+* free
+	* zeigt die momentane Speicherbelgung an
+		* wichtigsten Optionen
+			* -t: anzeige einer Zeile mit Gesamtübersichten
+			* -v: zeigt Versioninfomationen an
+			* -h: zeigt alle Werte in automtaisch in GiB, MiB oder KiB an 
+			
+* syslog
+	*
+* dmesg
+* /etc/, /var/log/
+* /boot/, /proc/, /dev/, /sys
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
@@ -353,7 +383,13 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 ## Links
 
-* [Linux Essentials Exam 010](https://www.lpi.org/our-certifications/exam-010-objectives)
+* [Linux Essentials Exam 010](htt
+
+
+
+
+
+://www.lpi.org/our-certifications/exam-010-objectives)
 * [E010 Dokumentation](https://github.com/w901-fr19-mi/E010) 
 * [myE010 Original Repository](https://github.com/w901-fr19-mi/myE010)
 
