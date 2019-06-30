@@ -233,16 +233,33 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 * Basic shell scripting
     * Linux unterstützt beliebige Scriptsprachen. Der 1.Eintrag in einer Datei bestimmt die Scriptsprache #!/bin/bash – Bash Script, #!/usr/bin/node – Node JavaScript
-* 
 * #! (shebang)
+    * #! (shebang) auch gennant hashbang steht am Anfang eines Scripts. Der Grundsatz von Linux, es unterstütz belibige Scriptsprachen. Hier ein Beispiel in dem (shebang) am Anfang des Scripts steht: #!/usr/bin/node
 * /bin/bash
+    * Auch hier sollte vor /bin/bash ein #! stehen. Wie man hier sieht ist dieses Scirpt ein Bash script. Wie schon oben erwähnt unterstütz Linux beliebige Scriptsprachen 
 * Variables
+    Auch bei Bash ist es möglich (wie in anderen Programmiersprachen) Text/nummerische Werte in Variabeln abzulegen. Ein Variable wird wie im folgenden Beispiel gesetzt: "bla=fasel". Was man beachten ,uss man darf keine Leerzeichen haben. Dazu unterscheidet man zwischen Umgebungsvariable und Shellvariable.
 * Arguments
-* for loops
+    * Ein Argument(wird auch Kommandozeilenargument gennant) ist ein Dateiname oder ander Daten, welche einem Befehl zur Verfügung gestellt werden, damit der Befehl ihn als Eingabe verwenden kann. Beispiel: <command> <argument> -> sudo date 08181715 -> hier ist der date der befehl & 08181715 das Argument.
 * echo
+    * Das Kommando echo gibt seine Argumente aus zum Beispiel:
+    
+ ```Shell
+	$ bla=fasel
+    $ echo bla
+    bla
+```
+   
 * Exit status
+    * Jeder Unix-Prozess liefert einen Rückgabewer, der angibt, ob er korrekt ausgeführt wurde oder ob irgendwelcher Fehler aufgetreten sind. Man kann den Rückgabewert heraufinden, indem man die Variable $? angibt.Hier ein Beispiel mit exit:
 
-
+```Shell
+    $ bash
+    $ exit 33
+    exit
+    $ echo $?
+    33
+```
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
