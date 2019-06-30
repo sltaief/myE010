@@ -268,32 +268,11 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 ***
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 4.1 Choosing an Operating System
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight**: 1
 
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
-
-**Beispiele und Arbeitsergebnisse**
-
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
-
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
-***
-
-
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
-
-**Weight**: 3 (Wert aus Exam 010)
-
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+**Beschreibung:** Knowledge of major operating systems and Linux distributions
 
 **Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
 
@@ -301,20 +280,62 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+* Differences between Windows, OS X and Linux
+	* Windows ist das verbreiteste Betriebssystem für Windows. Es wurde von Microsoft entwickelt. Windows muss auf allen möglichen PCs laufen und eine grosse Anzahl von Hardwarekomponenten unterstützen.
+	* OS X wird nur mit Apple-Computern verkauft. Somit läuft es nicht auf normalen PCs. Deshlab müssen sie sich nicht um das Problem mit den vielen Hardwarekomponenten.
+	* Linux im gegensatz zu Windows & OS X wird nicht nur von einer einzigen Firma entwickelt, sondern an dem viele Freiwillige mitarbeiten. Linux Distributionen erwietern den Linux Beriebsystemkern mit Benutzerprogramme.
+* Distribution life cycle management
+* GUI versus command line
+	* GUI
+		* Ein GUI benötigt mehr Systemressource.
+		* Ein GUI ist klarer für "einfache" Users -> man lernt schneller wie man ein GUI benutzt
+		
+	* CLI
+		* Ein Computer welche nur CLI verwendet benötigt weniger Systemressourcen des Computer
+		* Für CLI braucht man nur eine Tastatur.
+		* Ein CLI erfordet meistens, dass Benutzer bereits Skripbefhele und Syntaxe kennen, was für neuen/unerfahrene Benutzer es erschwert Skritpe zu erstellen
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
 
 
-### Kapitel: 2.1 Command Line Basics (Status: In Arbeit)
+### Kapitel: 4.2 Understanding Computer Hardware
 
-**Weight**: 3 (Wert aus Exam 010)
+**Weight**: 2
 
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
+**Beschreibung:** Familiarity with the components that go into building desktop and server computers
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* Motherboards
+	*  Motherboard ist die zentrale Platine eines Computers. Auf ihr sind die einzelnen Bauteile wie Prozessorsockel, RAM-Steckplätze, der BIOS-Chip mit der integrierten Firmware, Schnittstellen-Bausteine und Steckplätze für Erweiterungskarten 
+* processors
+	* Der Prozessor ist das herzstück des Computers. Hier findet die automatische programmgesteuerte  Datenverarbeitung statt. 
+* optical drives
+	* Unter opitsche Laufwere versteht man Medien wie CD-ROm, DVDs welche lesen und unter Umständen auch schreiben können.
+* peripherals
+	* Unter Pheripheriegeräte versteht man Geräte welche man am Computer anschliessen kann wie zum Beispiel: Kamera, Roborter, Drucker usw...
+* /dev/sd*
+	* Die devices ohne Number sind die disks: sda,sdb,sdc usw, 
+	* Die mit einer Nummer sind Partitionen auf der disk: sda1, sda2, sdc2 usw..
+* Drivers
+	* Treiber sind Computerprogramme oder Softwaremodule, welche die Kommunikation mit angeschlossene Harware oder virtuellen Geräten steuert. 
+
+**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+
+***
+
+
+### Kapitel: 4.3 Where Data is Stored 
+
+**Weight**: 3 
+
+**Beschreibung** Where various types of information are stored on a Linux system
 
 **Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
 
