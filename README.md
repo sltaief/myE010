@@ -243,26 +243,28 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 
 ***
 
-### Kapitel: 1.1 Linux Evolution and Popular Operating Systemss (Status: In Arbeit)
+### Kapitel: 2.4 Creating, Moving and Deleting Files
 
 **Weight:** 2
 
-**Beschreibung:** Knowledge of Linux development and major distributions
+**Beschreibung:** Create, move and delete files and directories under the home directory
 
-**Tagesziele:**
 
-**Vorgehen:**
 
 **Beispiele und Arbeitsergebnisse:**
-* Distributions:
-Eine Distribution ist ein Paket welcher auf einer Software/Kernel läuft. Nehmen wir z.B Linux, viele Betriebsysteme laufen auf Linux wie z.B: Ubuntu, Debian, Red Hat usw., diese gennante Linux-Destributins sind spezialisierte Images.
 
-* Embedded Systems:
-Embeded Systems sind Geräte welche mit einem eingebetetn System laufen. Aber was genau bedeutet das? Nehmen wir and wir haben eine Kafeemaschine. Hinter der Kafeemaschine steckt ein System(z.B: Linux) welches alles leitet.
-
-* Linux in the Cloud:
-Auch Cloud-Computing gennant. Damit meint man vor allem Server in die Coud zu verschieben. Man zahlt/benutzt nur das was man braucht.
-Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft Azure". Dadurch ist man viel flexibler & spart Platz da alles in der Cloud liegt & man sich über das Internet darauf verbinden kann.
+* mv
+	* Mit mv kann man eine Datei verschieben. Auch kann man mit diesem Befhel Dateien umbennen.
+* cp
+	* Mit cp kann man Dateien oder sogar ganze Verzeichnisse kopieren
+* rm
+	* Mit rm kann man Dateien und komplette Verzeichnisse löschen
+* touch
+	* Mit touch lassen sich Zugriffs- und Änderungs-Zeitstempel von Dateien ändern
+* mkdir
+	* Mit mkdir kann man einen oder mehrere Verzeihnisse anlegen
+* rmdir
+	* Mit rmdir kann man Verzeichniss Löschen welche leer sind.
 
 **Fazit und Aussicht:**
 
