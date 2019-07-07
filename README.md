@@ -344,13 +344,7 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 **Beispiele und Arbeitsergebnisse**
 
 Key Knowledge Areas:
-* Programs and configuration
-* Processes
-* Memory addresses
-* System messaging
-* Logging
 
-The following is a partial list of the used files, terms and utilities:
 * ps
 	* zeigt alle laufende Prozesses an
 		* wichtigste Optionen
@@ -372,15 +366,169 @@ The following is a partial list of the used files, terms and utilities:
 			* -h: zeigt alle Werte in automtaisch in GiB, MiB oder KiB an 
 			
 * syslog
-	*
+	* Syslog-Dienst ist zuständig für das Systemprotokoll. Das Programm "syslogd" nimmt die Nachrichten von den Programmen entgegen und sortiert dieses anhand  iherer Herkunft und Priorität in Datein in "/var/log" ein. Dazu kann der Syslog-Dienst die nachrichten über das Netz an einen anderen Rechner(z.B Syslog-Server).
 * dmesg
-* /etc/, /var/log/
-* /boot/, /proc/, /dev/, /sys
+	* Gibt den Inhalt des Kernel-Nachrichtenpuffers aus
+	* Der Linux-Betriebssystemkern erstellt jede Menge Nachrichten aus,bevor das System überhaupt so weit ist, dass syslogd läuft und diese Nachrichten tatsächlich entgegennehmen kann. Da die Nachrichten trotzdem wichtig sein können, speichert der Linux-Kern sie intern ab, und man kann mit dem Kommando dmesg zugreifen
+* /etc/
+	* Dieses Verzeichnis beinhaltet Konfigurationdateien für die allermeisten Dateien.
+* /var/log/
+	* Unter "/var/log" werden Anmelde- und Abmeldevorgänge sowie andere Systemereignisse protokolliert
+* /boot/
+	* In diesm Verzeichnis liegt das Betriebsystem, ausserdem befinden sich Dateien, die für den Bootlader wichtig sind
+		* /boot/grub/menu.lst
+			* Unter "/boot/grub/menu.lst" befindet sich die zentrale Konfigurationsdatei von GRUB Legacy. Hier werden die Grundeinstellungen vorgenommen und die einzelnen zu bootenden Betriebssysteme festgelegt und konfiguriert.
+* /proc/
+	* "/proc/" ist eines der wichtisten Verzeichnisse."/proc/" ist eigentlich ein Pseudo-Dateisystem. In diesem Verzeichniss findet man sämtliche Informationen zu den laufenden Prozessen und weitere Informationen, die der Kernel über die Hardware des Rechners besitzt.
+* /dev/
+	* In diesem Verzeichnis findet sich eine Unmenge von Einträgen für die Gerätedateien. Gerätedateien bilden die Schnittstellen von der Shell zu den Gerätetreibern im Systemkern. Sie haben keinen Inhalt wie andere Dateien , sondern verweisen über Gerätenummern auf einen Treiber im Systemkern
+* /sys
+	* Dieses Verzeichnis findet man im Linux Kernel ab der Version 2.6. Dieses Verzeichnis ist ähnlich wie /proc. Es ist für die Hardwaresteuerung zuständig
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
+***
+
+### Kapitel: 4.4 Your Computer on the Network
+
+**Weight**: 2 
+
+**Beschreibung** Querying vital networking configuration and determining the basic requirements for a computer on a Local Area Network (LAN)
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
 
 
+* route 
+	* mit dem Kommando "route" kann man die Routing-tabelle abrufen
+* ifconfig / ip addr show
+	* Mit diesen beiden Befehlen kann man die IP-Adresse, Netzmaske, Gateway usw. herausfinden. Ein Host kann auch mehrere IP-Adressen haben, wenn es mehrere Schnittstellen hat
+* netstat
+	* netstat ist ein Diagnosewerkzeug, mit dem man verschieden Informationen über den Status der Netzwerkschnittstellen in Erfahrung bringen kann. Das heisst man kann sehen welche Dienste auf dem host laufen & welche nicht usw.	
+* ss
+	* Ist ein Alternativ Programm für netstat und gehört zu dem Paket iproute
+* /etc/resolv.conf 
+	* Programme auf einem Linux Rechner reden nicht direkt mit dem DNS, sondernüber den Resolver. Die Konfigurationdatei für den Resolver ist "/etc/resolv.conf". 
+* /etc/hosts
+	* Diese Datei ist eine der Konfigurationdatein des TCP/IP Netzwerks. Dadrin werden die Namen der Netzwerkrechner meiner IP-Adressen zugeordnet. Kann in kleinen Netzwerken den Name-Server ersetzen.
+* IPv4
+	* Eine IPv4 besteht aus 4 Oktetten. Damit sind 2 hoch 32 Adressen darstellbar.
+* IPv6
+	* Mit IPv6 kann man 2 hoch 128 Adressen darstellen.
+* ping
+	* Mit "ping" kann man die Erreichbarkeit von hosts prüfen
+
+***
+
+### Kapitel: 5.1 Basic Security and Identifying User Types
+
+**Weight**: 2 
+
+**Beschreibung** Various types of users on a Linux system
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* /etc/passwd
+	* Die Datei "/etc/passwd" ist die zentrale Benutzerdatenbank. Jeder Benutzer auf dem System hat einen Eintrag in dieser Datei
+* /etc/shadow
+	* Bei fast allen aktuellen Linux-Distributinen die Benuterkennwörter in verschlüsselter Form in der Datei /etc/shadow gespeichert. Diese Datei kann nur root und Mitglieder der Gruppe shadow lesen/schreiben.
+* /etc/group
+	* Diese Datei hinterlegt die Gruppeninformationen. Jede Gruppe enthält einen einzeiligen Eintrag.
+* id
+	* Jeder Proezess, User, Gruppe, host usw. hat eine ID 
+* last
+	* Der Befehl last erstell eine Liste der erfolgreichen Login und Logouts jedoch muss man die Datei /var/log/wtmp anlegen, welche nicht auf jeden Linux System automatisch erstellt wird.
+* who
+	* Zeigt die Inofmationen des angemeldeten Benutzer an
+* w
+	* Gibt Ansukungt überdie Benutzer, die am System angmeldet sind.
+* sudo
+	* ist die erweiterte Rechte. Dies braucht man z.B für chown
+* su
+	* hat die gleiche Funktion wie sudo
+	
+***
+
+### Kapitel: 5.2 Creating Users and Groups
+
+**Weight**: 2 
+
+**Beschreibung** Creating users and groups on a Linux System
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* /etc/passwd
+	* Die Datei "/etc/passwd" ist die zentrale Benutzerdatenbank. Jeder Benutzer auf dem System hat einen Eintrag in dieser Datei
+* /etc/shadow
+	* Bei fast allen aktuellen Linux-Distributinen die Benuterkennwörter in verschlüsselter Form in der Datei /etc/shadow gespeichert. Diese Datei kann nur root und Mitglieder der Gruppe shadow lesen/schreiben.
+* /etc/group
+	* Diese Datei hinterlegt die Gruppeninformationen. Jede Gruppe enthält einen einzeiligen Eintrag.
+* useradd
+	* Mit dem Befehl adduser legt man neue Benutzer an 
+* groupadd
+	* Mit dem Befehl groupadd legt man eine neue Gruppe an
+* passwd
+	* passwd ändert die Passwörter eines benutzers oder einer ganzen Gruppe
+
+***
+
+### Kapitel: 5.3 Managing File Permissions and Ownership
+
+**Weight**: 2 
+
+**Beschreibung** Understanding and manipulating file permissions and ownership settings
+
+**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
+
+**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
+
+**Beispiele und Arbeitsergebnisse**
+
+* ls -l
+	* Datei-Information in Langrom werden ausgegeben 
+* ls -a
+	* listet alle Dateien, auch versteckte Dateien und Verzeichniseinträge wie . und .. auf
+* chmod
+	* Mit "chmod" kann man die Zugriffrechte einer Datei verändern
+* chown
+	* Mit "chown" kann man den Eigentümerbenutzer/Eigentümergruppe von Dateien ändern
+	
+***
+
+### Kapitel: 5.3 Managing File Permissions and Ownership
+
+**Weight**: 2 
+
+**Beschreibung** Special directories and files on a Linux system including special permissions
+
+**Beispiele und Arbeitsergebnisse**
+
+
+* /tmp/
+	* Viele Dienstprogramme brauchen tempöreren Speicherplatz. Viele Distributionen löschen beim Booten alle Dateien unterhalb dieses Verzeichnisses deshalb sollte man nichts auf Dauer dort speichern 
+* /var/tmp/
+	* Nach dem Booten werden hier die Dateien nicht gelöscht. 
+* Sticky Bit
+	* Programmdateien, aufd denen das sticky bit gesetzt war, wurden nach dem Programmende im Swap-Speicher liegen gelassen somit beschleunigte man den Startvorgran für das Programm, weil der anfängliche Kopiervorgang entfiel 
+* ls -d
+	* Zeigt Verzeichnisse und keine Inhalte an
+* ln -s
+	* erzeugt eine symbolische Verknüpfung anstatt eines Hardlinks
+
+
+	
+			
 ## Links
 
 * [Linux Essentials Exam 010](htt
