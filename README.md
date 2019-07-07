@@ -88,10 +88,20 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse:**
 
-* Open source philosophy:
-* Open source licensing:
-* Free Software Foundation (FSF), Open Source Initiative (OSI):
-
+* Open source
+	* Open Source ist die freie Verfügbarkeit von Software-Quellcodes. Welche im Rahmen von Open-Source-Lizenzmodellen unentgeltlich genutzt und verändert werden können. Der Begriff entstand im Jahre 1998 mit der gegründeten Open Source Initiative (OSI) und prägt seitdem das Bild der Softwareentwicklung.
+* Copyleft
+	* Copyleft ist eine allgemeine Methode, ein Programm (oder ein anderes Werk) frei (im Sinne von Freiheit, nicht „Nullpreis“) zu machen und zu verlangen, 
+dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
+* GNU / GPL
+	* GNU/GPL ist die am weitesten verbreitete Softwarelizenz, die einem gewährt, die Software auszuführen, zu studieren, zu ändern und zu verbreiten
+* Foss=  Free Open Source Software
+	* sind freie Software. Jeder ist berechtigt, die Software zuverwenden, kopieren, bearbeiten und änderungen vorzunehmen
+* Floss = Free Libre Source Software
+	* sind kostenpflichtige Software. Dafür dass es kostet hat es auch dem entsprechend eine höhere Sicherheit und funktioniert auch stabiler
+* Urheberrecht
+	* Urheberrecht bedeutet dass dem Urheber eines Werks, also dem Autor eines Buchs, Maler eines Bildes, … das Recht zuerkannt wird, als Einziger darüber zu verfügen, was mit dem Werk passiert. Urheber kann Rechte, in Form einer Lizenz, an andere weitergegeben
+	
 **Fazit und Aussicht:** 
 
 ***
@@ -114,9 +124,24 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
     * Using a browser: Firefox & Chrome sthet uns für Linux zur Verfügung genau wie für Windows mit dem unterschied, dass sie anderst heissen(Open-Source-Version).Firefox -> Iceweasel / Chrome -> Chromium. Wie man den Browser öffnet und bedient sollte im klaren sein.
 * Getting to the command line:
     * Terminals und Shells: In einem Terminalfenster können Sie in einer Grafikumgebung textuelle Shell-Komandos eingeben. Um Textdateien anzulegen kann man mit den folgenden Editoren die Dateien anlegen oder ändern <vi oder GNU Nano>. GNU Nano ist ein Klon eines Editor namens pico.
-* Industry uses of Linux, cloud computing and virtualization:
+* Cloud computing with Linux
+	* In Cloud computing und Speicher virtualisation werden die Physikale Ressourcen z.B Prozessor, Ram und Festplatten über das Internet als ein Service zur verfügung gestellt. Das ganze kann mit mehr skalierbarkeit umgesetzt werden in dem Server Komponente Virtualiert werden.Cloud computing stellt dem User eine grosse Menge an Speicher und Performance zur verfügung
+* Getting to the commmand line
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
+| Befehl   | Beschreibung                                               |
+|----------|------------------------------------------------------------|
+| adduser  | Hinzufügen eines Benutzers                                 |
+| chsh     | Änderung der Standard-Shell des Benutzers ("change shell") |
+| deluser  | Löschung eines Benutzers ("delete user")                   |
+| groupadd | Hinzufügen einer Gruppe ("add group")                      |
+| groupdel | Löschung einer Gruppe ("delete group")                     |
+| groupmod | Bearbeitung einer Gruppe ("modify group")                  |
+| id       | Anzeige der Benutzer- und Gruppenkennung (ID)              |
+| newgrp   | Änderung der Gruppe des aktuellen Benutzers ("new group")  |
+| passwd   | Änderung des Passworts eines Benutzers ("password")        |
+| usermod  | Bearbeitung eines Benutzerkontos ("modify user")           |
+| chfn     | erweiterte Benutzerinformationen anpassen 
+
 
 ***
 
@@ -132,13 +157,115 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 
 **Beispiele und Arbeitsergebnisse**
 
-* Starten der Shell: bash bzw. Einloggen.
-* Einfache 'mein Befehl' lösen Variablen nicht auf.
-* Doppelte " lösen Variablen auf.
+* basic shell
+
+| Befehl            | Beschreibung                                                      |
+|-------------------|-------------------------------------------------------------------|
+| ls                | Um die Liste aller Dateien oder Ordner zu erhalten.               |
+| cd                | um den Verzeichnis zu wechseln.                                   |
+| du                | Aktuelle Festplatten Speicher anzeigen.                           |
+| pwd               | Zeigt das aktuelle Arbeitsverzeichnis an.                         |
+| rmdir             | Löscht ein Verzeichnis wenn es leer ist.                          |
+| ln file1 file2    | Erstellt eine physische Verbindung.                               |
+| ln -s file1 file2 | Erstellt eine symbolische Verknüpfung.                            |
+| chown             | Dient zum Ändern des Dateieigentümers                             |
+| chmod             | Used to modify the access/permission of a user.                   |
+| man               | Dient zum Ändern des Zugriffs / der Berechtigung eines Benutzers. |
+
+* Command line syntax
+
+| Variabel | Beschreibung                                                                                                                                                                                                                                                                                               |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| cat      | Zeigt den gesamten Inhalt einer Textdatei an.                                                                                                                                                                                                                                                              |
+| more     | Zeigt den gesamten Inhalt einer Textdatei an. Zeigt den Inhalt einer Textdatei bildschirmweise an. Drücke die Leertaste, um zu jedem weiteren Block zu gelangen. |
+| less     | Zeigt den Inhalt einer Textdatei bildschirmweise an, jedoch so, dass Sie mit der Aufwärtspfeiltaste eine Sicherungskopie erstellen können.                                                                                                                                                                 |
+| file     | Identifiziert Dateien nach Typ (z. B. ASCII-Text, ausführbare Datei, Image, Verzeichnis)                                                                                                                                                                                                                   |
+
+* bash
+	* bash ist die GNU/Linux-Standard-Shell. Damit kann man nicht nur einfache Abläufe wie unter DOS mit Batches automatisieren, sonder man kann richtige Programme erstellen.
+* echo
+	* Mit dem Befehl echo lassen sich Zeichenketten und Variablen zeilenweise auf dem Standardausgabegerät anzeigen
+
 
 **Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
+
+### Kapitel: 2.2 Using the Command Line to Get Help
+
+**Weight:** 2
+
+**Beschreibung:** Running help commands and navigation of the various help systems
+
+
+**Beispiele und Arbeitsergebnisse:**
+
+* Man Pages
+	* Eine Manpage (Manualpage) ist ein Hilfetext für einen Befehl, einen Systemaufruf, ein Dateiformat oder ein ähnliches Element. 
+* Info pages
+	* Infoseiten sind detaillierter als Manpages. Sie sind in verschiedene Knoten unterteilt: Seiten, die mit einem Info-Reader gelesen werden können,der ähnlich wie ein Webbrowser funktioniert.
+
+***
+### Kapitel: 2.3 Using Directories and Listing Files
+
+**Weight:** 2
+
+**Beschreibung:** Navigation of home and system directories and listing files in various locations
+
+* files, directories
+	* Linux speichert Daten und Programme in Dateien. Diese sind in Verzeichnissen organisiert. Auf einfache Weise ist ein Verzeichnis nur eine Datei, die andere Dateien enthält.
+	*
+
+**Beispiele und Arbeitsergebnisse:**
+
+* files, directories
+	* Linux speichert Daten und Programme in Dateien. Diese sind in Verzeichnissen organisiert. Auf einfache Weise ist ein Verzeichnis nur eine Datei, die andere Dateien enthält.
+* Hidden files and directories
+	* Um versteckte Dateien und Verzeichnisse afuzuzeigen muss den Befehl ls -a für all eingeben
+* Home directories
+	* Ein Ausgangsverzeichnis, auch Anmeldeverzeichnis genannt, ist das Verzeichnis auf Unix-ähnlichen Betriebssystemen, das als Repository für die persönlichen Dateien, Verzeichnisse und Programme eines Benutzers dient.
+* ls
+
+| Variabel          | Beschreibung                                                                            |
+|-------------------|-----------------------------------------------------------------------------------------|
+| ls                | Dateien des Verzeichnisses anzeigen                                                     |
+| ls -f             | Dateien des Verzeichnisses anzeigen                                                     |
+| ls -l             | Details von Dateien und Verzeichnissen anzeigen                                         |
+| ls -a             | Auflistung von Versteckte Dateien                                                       |
+| cd /home          | In das Verzeichnis '/ home eingeben                                                     |
+| cd ..             | eine Ebene zurück gehen                                                                 |
+| cd ../..          | Zwei Ebenen zurück gehen                                                                |
+| cd                | zum Home-Verzeichnis                                                                    |
+| cd -              | Zum vorherigen Verzeichnis wechseln                                                     |
+| cp file1 file2    | Dateien kopieren                                                                        |
+| cp dir/* .        | Kopiert alle Dateien eines Verzeichnisses innerhalb des aktuellen Arbeitsverzeichnisses |
+| cp -a /tmp/dir1 . | Kopiert ein Verzeichnis innerhalb des aktuellen Arbeitsverzeichnisses   
+
+***
+
+### Kapitel: 1.1 Linux Evolution and Popular Operating Systemss (Status: In Arbeit)
+
+**Weight:** 2
+
+**Beschreibung:** Knowledge of Linux development and major distributions
+
+**Tagesziele:**
+
+**Vorgehen:**
+
+**Beispiele und Arbeitsergebnisse:**
+* Distributions:
+Eine Distribution ist ein Paket welcher auf einer Software/Kernel läuft. Nehmen wir z.B Linux, viele Betriebsysteme laufen auf Linux wie z.B: Ubuntu, Debian, Red Hat usw., diese gennante Linux-Destributins sind spezialisierte Images.
+
+* Embedded Systems:
+Embeded Systems sind Geräte welche mit einem eingebetetn System laufen. Aber was genau bedeutet das? Nehmen wir and wir haben eine Kafeemaschine. Hinter der Kafeemaschine steckt ein System(z.B: Linux) welches alles leitet.
+
+* Linux in the Cloud:
+Auch Cloud-Computing gennant. Damit meint man vor allem Server in die Coud zu verschieben. Man zahlt/benutzt nur das was man braucht.
+Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft Azure". Dadurch ist man viel flexibler & spart Platz da alles in der Cloud liegt & man sich über das Internet darauf verbinden kann.
+
+**Fazit und Aussicht:**
+
 
 ### Kapitel: 3.1 Archiving Files on the Command Line
 
