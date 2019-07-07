@@ -26,10 +26,6 @@ Kapitel aus E010 sind einzeln erarbeitet worden. Kapitel aus E701 in der Gruppe 
 
 **Beschreibung:** Knowledge of Linux development and major distributions
 
-**Tagesziele:**
-
-**Vorgehen:**
-
 **Beispiele und Arbeitsergebnisse:**
 * Distributions:
 Eine Distribution ist ein Paket welcher auf einer Software/Kernel läuft. Nehmen wir z.B Linux, viele Betriebsysteme laufen auf Linux wie z.B: Ubuntu, Debian, Red Hat usw., diese gennante Linux-Destributins sind spezialisierte Images.
@@ -41,8 +37,6 @@ Embeded Systems sind Geräte welche mit einem eingebetetn System laufen. Aber wa
 Auch Cloud-Computing gennant. Damit meint man vor allem Server in die Coud zu verschieben. Man zahlt/benutzt nur das was man braucht.
 Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft Azure". Dadurch ist man viel flexibler & spart Platz da alles in der Cloud liegt & man sich über das Internet darauf verbinden kann.
 
-**Fazit und Aussicht:**
-
 
 ***
 
@@ -51,11 +45,6 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
 **Weight:** 2
 
 **Beschreibung:** Awareness of major applications as well as their uses and development
-
-**Tagesziele*:*
-
-**Vorgehen:** 
-
     
 **Beispiele und Arbeitsergebnisse**
 
@@ -71,8 +60,6 @@ Es gibt viele Anbieter wie Microsoft, die das zur verfügung stellen "Microsoft 
     * apt-get(apt): apt ist ein Paketverwaltungssystem welches für Linux-Distribustionen verwendet wird wie Ubuntu, Debian usw.
     * rpm: rpm ist das Format der Software Packages. Yum ist die Paketverwaltungsystem für rpm. Sie sind vergleichbar mit den bei Windows bekannten MSI-Dateien.  
     * yum: yum ist ein Paketverwaltungssystem genau wie apt jedoch wird yum bei Linux-Distributionen wie CentOS, Red Hat usw. verwendet
-
-**Fazit und Aussicht:**
 
 ***
 
@@ -101,8 +88,7 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 	* sind kostenpflichtige Software. Dafür dass es kostet hat es auch dem entsprechend eine höhere Sicherheit und funktioniert auch stabiler
 * Urheberrecht
 	* Urheberrecht bedeutet dass dem Urheber eines Werks, also dem Autor eines Buchs, Maler eines Bildes, … das Recht zuerkannt wird, als Einziger darüber zu verfügen, was mit dem Werk passiert. Urheber kann Rechte, in Form einer Lizenz, an andere weitergegeben
-	
-**Fazit und Aussicht:** 
+
 
 ***
 
@@ -112,9 +98,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 
 **Beschreibung:** Basic Information and Communication Technology (ICT) skills and working in Linux
 
-**Tagesziele:** 
-
-**Vorgehen:** z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -151,10 +134,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 
 **Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
-
 **Beispiele und Arbeitsergebnisse**
 
 * basic shell
@@ -186,8 +165,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 * echo
 	* Mit dem Befehl echo lassen sich Zeichenketten und Variablen zeilenweise auf dem Standardausgabegerät anzeigen
 
-
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
 
@@ -249,8 +226,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 
 **Beschreibung:** Create, move and delete files and directories under the home directory
 
-
-
 **Beispiele und Arbeitsergebnisse:**
 
 * mv
@@ -266,18 +241,12 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 * rmdir
 	* Mit rmdir kann man Verzeichniss Löschen welche leer sind.
 
-**Fazit und Aussicht:**
-
 
 ### Kapitel: 3.1 Archiving Files on the Command Line
 
 **Weight:** 2
 
 **Beschreibung:** Archiving files in the user home directory.
-
-**Tagesziele:**
-
-**Vorgehen:** z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse:**
 
@@ -304,17 +273,11 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
     * unzip: unzip ist ein Entkomprimierungsprogramm für zip-Archive
     
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
 ***
 
 ### Kapitel: 3.2 Searching and Extracting Data from Files
 
 **Weight**: 3 
-
-**Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
 
 **Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
@@ -343,8 +306,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
     * dient zum Zählen von Wörtern, Zeichen und Bytes in Textdateien
 
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
 ***
 
 
@@ -353,10 +314,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 **Weight**: 4
 
 **Beschreibung** des Unterkapitels, z.B. Basiswissen um mit der Kommandozeile von Linux zu arbeiten.
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -390,11 +347,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
     33
 ```
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
-
-
-
 ***
 
 ### Kapitel: 4.1 Choosing an Operating System
@@ -402,10 +354,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 **Weight**: 1
 
 **Beschreibung:** Knowledge of major operating systems and Linux distributions
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -424,7 +372,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 		* Für CLI braucht man nur eine Tastatur.
 		* Ein CLI erfordet meistens, dass Benutzer bereits Skripbefhele und Syntaxe kennen, was für neuen/unerfahrene Benutzer es erschwert Skritpe zu erstellen
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
 
 ***
 
@@ -434,10 +381,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 **Weight**: 2
 
 **Beschreibung:** Familiarity with the components that go into building desktop and server computers
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -455,8 +398,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 * Drivers
 	* Treiber sind Computerprogramme oder Softwaremodule, welche die Kommunikation mit angeschlossene Harware oder virtuellen Geräten steuert. 
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
 ***
 
 
@@ -465,10 +406,6 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 **Weight**: 3 
 
 **Beschreibung** Where various types of information are stored on a Linux system
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -514,8 +451,6 @@ Key Knowledge Areas:
 * /sys
 	* Dieses Verzeichnis findet man im Linux Kernel ab der Version 2.6. Dieses Verzeichnis ist ähnlich wie /proc. Es ist für die Hardwaresteuerung zuständig
 
-**Fazit und Aussicht**, z.B. Die Durcharbeitung von ... gab mir einen Einblick in die Shell. Das nächste Mal will ich diese im Kapitel ... vertiefen.
-
 ***
 
 ### Kapitel: 4.4 Your Computer on the Network
@@ -523,10 +458,6 @@ Key Knowledge Areas:
 **Weight**: 2 
 
 **Beschreibung** Querying vital networking configuration and determining the basic requirements for a computer on a Local Area Network (LAN)
-
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
 
 **Beispiele und Arbeitsergebnisse**
 
@@ -558,10 +489,6 @@ Key Knowledge Areas:
 
 **Beschreibung** Various types of users on a Linux system
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
-
 **Beispiele und Arbeitsergebnisse**
 
 * /etc/passwd
@@ -591,10 +518,6 @@ Key Knowledge Areas:
 
 **Beschreibung** Creating users and groups on a Linux System
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
-
 **Beispiele und Arbeitsergebnisse**
 
 * /etc/passwd
@@ -618,10 +541,6 @@ Key Knowledge Areas:
 
 **Beschreibung** Understanding and manipulating file permissions and ownership settings
 
-**Tagesziele**, z.B. Aufbau des Wissen über die Shell. 
-
-**Vorgehen**, z.B. Installation einer Ubuntu Linux Umgebung. Durcharbeiten ...., Dokumentation der einzelnen Befehle in ...
-
 **Beispiele und Arbeitsergebnisse**
 
 * ls -l
@@ -635,9 +554,9 @@ Key Knowledge Areas:
 	
 ***
 
-### Kapitel: 5.3 Managing File Permissions and Ownership
+### Kapitel: 5.4 Special Directories and Files
 
-**Weight**: 2 
+**Weight**: 1
 
 **Beschreibung** Special directories and files on a Linux system including special permissions
 
@@ -659,14 +578,8 @@ Key Knowledge Areas:
 	
 			
 ## Links
-
-* [Linux Essentials Exam 010](htt
-
-
-
-
-
-://www.lpi.org/our-certifications/exam-010-objectives)
+* https://wiki.ubuntuusers.de/Startseite/
+* [Linux Essentials Exam 010](htt://www.lpi.org/our-certifications/exam-010-objectives)
 * [E010 Dokumentation](https://github.com/w901-fr19-mi/E010) 
 * [myE010 Original Repository](https://github.com/w901-fr19-mi/myE010)
 
