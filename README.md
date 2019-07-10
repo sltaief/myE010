@@ -177,10 +177,15 @@ dass alle modifizierten und erweiterten Programmversionen ebenfalls frei sind.
 
 **Beispiele und Arbeitsergebnisse:**
 
-* Man Pages
-	* Eine Manpage (Manualpage) ist ein Hilfetext für einen Befehl, einen Systemaufruf, ein Dateiformat oder ein ähnliches Element. 
-* Info pages
-	* Infoseiten sind detaillierter als Manpages. Sie sind in verschiedene Knoten unterteilt: Seiten, die mit einem Info-Reader gelesen werden können,der ähnlich wie ein Webbrowser funktioniert.
+* man
+	* Der Kommando "man" zeigt Handbuchseiten des Sysems an
+	* Für die meisten Prgramme gibt es mit man abrufbare Handbuchseiten. Mit dem Kommando "apropo" sucht man in allen Handbuchseiten nach Stichwörtern & "whatis" nach den Namen von Kommandos
+* info
+	* Zeigt GNU-Info-Seiten auf einem Textterminal an
+	* Für manche Programme sind die Infoseiten nur eine Alternative zu Handbuchseiten
+* /usr/share/doc/
+	* "/usr/share/doc/" ist der Speicherort der paketbezogene Dokumnetationsdateien
+
 
 ***
 ### Kapitel: 2.3 Using Directories and Listing Files
